@@ -9,3 +9,13 @@ You create, modify and delete contacts on both systems and synchronize them peri
 Each contact consists of a Name , Note and a Phone Number. 
 Assume that the Name of the contact is the primary identifier and is to be used as the key  in distinguishing one contact from another.
 If the name is changed it is equivalent to the old name being deleted and a new name  being created. 
+
+
+ALGO:
+Algorithm to synchronize changes between cloud server and phone:
+
++ Retrieve the list of contacts from both the cloud server and the phone.
++ Compare the timestamps of the last modification for each contact in both lists.
++ For each contact that has been modified on one of the devices, update the corresponding contact on the other device.
++ For each contact that has been deleted on one of the devices, delete the corresponding contact on the other device.
++ For each contact that has been added on one of the devices, add the corresponding contact to the other device.
