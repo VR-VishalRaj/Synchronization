@@ -1,0 +1,11 @@
+# Synchronization
+Synchronization demo in C#
+
+A Utility (Contact details) to provide Synchronization between two devices.
+
+Problem Statement :
+You maintain your list of contacts on a Cloud Server as well as on your phone. 
+You create, modify and delete contacts on both systems and synchronize them periodically. 
+Each contact consists of a Name , Note and a Phone Number. 
+Assume that the Name of the contact is the primary identifier and is to be used as the key  in distinguishing one contact from another.
+If the name is changed it is equivalent to the old name being deleted and a new name  being created. 
